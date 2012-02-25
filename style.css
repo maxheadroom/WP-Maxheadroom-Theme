@@ -6,3 +6,280 @@ Version: 1
 Author: Falko Zurell
 Author URI: http://www.explain-it.org/wordpress
 */
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+/* Font selection:
+<link href='http://fonts.googleapis.com/css?family=Fjord+One|Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic|Abel|Jura:300,400,500,600|Open+Sans:400italic,300,400|News+Cycle|OFL+Sorts+Mill+Goudy+TT|Raleway:100|Quattrocento|Open+Sans+Condensed:300,300italic' rel='stylesheet' type='text/css' />
+
+*/
+
+body {
+	background: #f0e3cb fixed;
+	/* font-family: Georgia, Serif;  */
+	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #555; 
+	line-height: 20px;
+}
+
+a {
+	color: #88230b; text-decoration: none;
+}
+a:hover {
+	color: #651705;
+}
+
+#wrapper {
+	padding: 22px 0 0 0;
+	/* background: url(images/banner-strip-repeat.png) fixed 0 22px no-repeat; */
+
+}
+
+#container {
+	width: 960px; margin: 0 auto; overflow: hidden;
+}
+
+#nav {
+	position: fixed; 
+	width: 280px; 
+	float: left; 
+	text-align: right;
+}
+#nav h1 a {
+	display: block; 
+	width: 213px; 
+	height: 126px; 
+	margin: 27px 60px 31px 10px; 
+	text-indent: 9999px;
+}
+
+#nav ul {
+	margin: 0 60px 40px 0; list-style: none;
+}
+#nav ul li a {
+	font-size: 24px; 
+	line-height: 48px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#nav h2 {
+	font-size: 16px; 
+	font-weight: normal; 
+	text-transform: uppercase; 
+	letter-spacing: 3px;
+	margin: 0 60px 9px 0; 
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#main {
+	width: 600px; 
+	float: right; 
+	padding: 26px 0 0 80px;
+}
+
+#main .post {
+
+	padding: 0 0 44px;
+	margin: 0 0 46px 0;
+}
+#main .post h2 {
+	font-size: 32px; font-weight: normal;
+	text-shadow: 0px 1px 0px #fff; margin: 0 0 23px 0;
+}
+#main h2.title {
+	font-size: 48px; font-weight: normal;
+	text-shadow: 0px 1px 0px #fff; margin: 48px 0 95px 0;
+}
+#main .post h3 {
+	font-size: 24px; font-weight: normal;
+	text-shadow: 0px 1px 0px #fff; margin: 0 0 12px 0;
+}
+#main .post h4 {
+	font-size: 16px; font-weight: normal;
+	text-shadow: 0px 1px 0px #fff; margin: 0 0 12px 0;
+}
+
+#main .post .post-thumb img {
+	margin: 0 0 24px -60px; 
+	-moz-box-shadow: 0 2px 5px #948a76;
+}
+
+#main .post p {
+	font-size: 14px; margin: 0 0 24px 0;
+}
+
+#main .post ul.meta {
+	list-style: none; overflow: hidden; margin: 0;
+}
+#main .post ul.meta li {
+	float: left; margin: 0 24px 0 0;
+	font-size: 12px; text-transform: uppercase; letter-spacing: 2px; 
+
+}
+
+#main .post ul, #main .post ol {
+	margin: 0 0 24px 0; font-size: 16px; line-height: 24px;
+}
+
+#main .post blockquote {
+	margin: 0 0 0 -60px; 
+}
+#main .post blockquote p {
+	font-size: 16px; font-style: italic;
+}
+
+#main .pagination ul {
+	list-style: none; overflow: hidden; margin: 0 0 40px 0;
+}
+#main .pagination ul li.older {
+	float: left; 
+}
+#main .pagination ul li.newer {
+	float: right;
+}
+#main .pagination ul li a {
+	font-size: 24px; text-shadow: 0px 1px 0px #fff;
+
+}
+
+/* 
+#main comments {
+
+}
+#main #comments h3 {
+	font-size: 32px; font-weight: normal;
+	text-shadow: 0px 1px 0px #fff; margin: 0 0 23px 0;
+}
+
+#main #comments ol.commentlist {
+	margin: 0 0 40px 0; list-style: none; 
+}
+#main #comments ol.commentlist li {
+	margin: 0 0 24px 0; padding: 0 0 24px 0; clear: both; border-bottom: 1px solid #d1c7b3;
+}
+
+#main #comments ol.commentlist ul {
+	margin: 0 0 0 20px; 
+}
+#main #comments ol.commentlist ul li {
+	margin: 0 0 24px 20px; padding: 0; border: none; 
+}
+#main #comments .comment {
+	overflow: hidden; 
+}
+#main #comments .comment .avatar {
+	float: left; margin: 0 15px 10px 0;
+	border: 1px solid #d1c7b3;
+}
+#main #comments .comment .commenttext {
+	width: 404px; float: left; 
+}
+#main #comments .comment p {
+	margin: 0 0 5px 0; font-size: 14px; line-height: 24px;
+}
+#main #comments .comment cite {
+	font: italic 18px Georgia, Serif;
+	margin : 0 0 5px 0;
+}
+#main #comments .comment span { display: none; }
+
+#main #comments .comment .comment-meta {
+	float: right; font: italic 11px Georgia, Serif; margin: -92px 0 0 0; 
+}
+#main #comments .comment .reply a {
+	display: block; clear: both; float: right; font: italic 15px Georgia, Serif; 
+}
+#main #comments .comment .cancel a {
+	display: block;  
+	float: right; 
+	clear: both; 
+	font: italic 15px Abel, Helvetica, Serif;
+}
+#main #comments ul.children .depth-2 {
+	display:  block;
+	padding-left: 50px; 
+}
+
+#main #comments ul.children .depth-3 {
+	display:  block;
+	padding-left: 50px; 
+}
+
+*/
+#main #comments #respond {
+	margin: 0 0 50px 0; clear: both;
+}
+#main #comments #respond form label {
+	float: left; clear: left; width: 80px; text-align: right; margin: 7px 10px 0 0;
+	font-size: 17px;
+}
+#main #comments #respond form input {
+	float: left; width: 250px; height: 16px; margin: 0 20px 10px 0; padding: 10px; 
+	background: #e1d6c1; border: 1px solid #c8bca6; font: 15px Helvetica, Arial, Sans-Serif; color: #666;
+}
+#main #comments #respond form textarea {
+	float: left; width: 400px; height: 120px; margin: 0 0 10px 0; padding: 10px;
+	background: #e1d6c1; border: 1px solid #c8bca6; font: 15px Helvetica, Arial, Sans-Serif; color: #666;
+}
+#main #comments #respond form input.commentsubmit {
+	margin: 10px 0 0 80px; width: auto; height: auto; background: none; border: none;
+	font: 24px Georgia, Serif; color: #88230b; text-shadow: 0px 1px 0px #fff; cursor: pointer;
+
+}
+#main #comments #respond form input:focus, #main #comments #respond form textarea:focus {
+	background: #efe4cf;
+}	
+
+
+#footer {
+	clear: both; overflow: hidden; padding: 5px 0 40px 0;
+}
+#footer ul#credits {
+	list-style: none; float: left; overflow: hidden; 
+}
+#footer ul#credits li {
+	float: left;
+}
+#footer ul#credits li a.wordpress {
+	display: block; 
+	width: 23px; 
+	height: 23px; 
+	margin: 0 8px 0 0;
+	text-indent: 9999px;
+
+}
+#footer ul#credits li {
+	display: block; 
+	width: 26px; 
+	height: 23px; 
+	text-indent: 9999px;
+
+}
+#footer p#back-top {
+	float: right; font-size: 12px;
+}
+
+a:focus { outline: 1px dotted; overflow: hidden; }
+a, a:hover, a:active { outline: none; }
+
+
+/* Wordpress Alignment Stuff */
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
