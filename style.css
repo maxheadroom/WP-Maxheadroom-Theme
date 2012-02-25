@@ -145,7 +145,7 @@ a:hover {
 
 }
 
-/* 
+/*
 #main comments {
 
 }
@@ -209,6 +209,50 @@ a:hover {
 }
 
 */
+#main #comments {
+
+}
+
+#main #comments li {
+	list-style-type: none;
+	
+}
+
+#main #comments .comment .depth-1 li {
+	padding-left: 0px;
+
+}
+
+
+#main #comments .comment .depth-2 li {
+	padding-left: 30px;
+
+}
+
+#main #comments .comment .depth-3 li {
+	padding-left: 60px;
+
+}
+
+#main #comments .comment .depth-4 li {
+	padding-left: 90px;
+
+}
+
+#main #comments .comment .comment-meta {
+	float: none; 
+	font: italic 11px Abel, Helvetica, Serif; 
+}
+#main #comments .comment .reply a {
+	float: none; 
+	font: italic 15px Abel, Helvetica, Serif; 
+}
+#main #comments .comment .cancel a {
+	float: left; 
+	font: italic 15px Abel, Helvetica, Serif;
+}
+
+
 #main #comments #respond {
 	margin: 0 0 50px 0; clear: both;
 }

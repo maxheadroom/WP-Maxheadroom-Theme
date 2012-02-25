@@ -14,9 +14,9 @@
 		<div id="comments">
 			<h3><?php comments_number('No Comments', '1 Comment', '% Comments'); ?></h3>
 			<?php if( have_comments() ) : ?>
-				<ol class="commentslist">
+				<ul class="commentslist">
 					<?php wp_list_comments('avatar_size=64&type=comment'); ?>
-				</ol>
+				</ul>
 				<?php if ($wp_query->max_num_pages > 1) : ?>
 					<div class="pagination">
 						<ul>
