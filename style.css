@@ -52,7 +52,7 @@ a:hover {
 
 #nav #siteinfo {
 	width: 240px;
-	height: 60px;
+	height: 90px;
 	margin-bottom: 0px;
 	margin-top: 27px;
 	margin-right: 40px;
@@ -63,6 +63,12 @@ a:hover {
 #nav #siteinfo h1 a {
 	line-height: 35px;
 }
+
+#nav #siteinfo p {
+	font-size: 14px;
+	line-height: normal;
+}
+
 
 #nav ul { margin-left: 0; margin-bottom: 20px; margin-right: 40px; margin-top: 0; list-style: none;
 }

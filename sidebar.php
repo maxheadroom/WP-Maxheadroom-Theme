@@ -1,7 +1,7 @@
 <div id="nav">
 				<div id="siteinfo">
 					<h1><a href="<?php echo get_option('home');?>"><?php bloginfo('name');?></a></h1>
-					<?php bloginfo('description');?>
+					<p><?php bloginfo('description');?></p>
 				</div>
 				<ul id="pages">
 					<li><a href="<?php echo get_option('home');?>">Home</a></li>
