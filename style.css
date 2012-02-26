@@ -18,7 +18,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 */
 
 body {
-	background: #f0e3cb fixed;
+	background: fixed;
 	/* font-family: Georgia, Serif;  */
 	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #555; 
@@ -26,10 +26,11 @@ body {
 }
 
 a {
-	color: #88230b; text-decoration: none;
+	color: #1f5388; text-decoration: none;
 }
 a:hover {
-	color: #651705;
+	text-decoration: underline;
+	color: #06a6ca;
 }
 
 #wrapper {
@@ -145,6 +146,11 @@ a:hover {
 
 }
 
+#main .title h1 {
+	font-style: italic;
+	margin-bottom: 10px;
+	border: dotted solid;
+}
 /*
 #main comments {
 
@@ -327,3 +333,4 @@ a, a:hover, a:active { outline: none; }
 	float: left;
 	margin-right: 15px;
 }
+
