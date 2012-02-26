@@ -230,6 +230,14 @@ a:hover {
 }
 
 */
+
+
+html body div#wrapper div#container div#main div.post img {
+ 	max-height: 600px;
+	max-width: 600px;
+
+}
+
 #main #comments {
 
 }
