@@ -288,28 +288,23 @@ a:hover {
 
 
 #footer {
-	clear: both; overflow: hidden; padding: 5px 0 40px 0;
+	clear: both; 
+	overflow: hidden; 
+	padding: 5px 0 40px 0;
 }
 #footer ul#credits {
-	list-style: none; float: left; overflow: hidden; 
+	list-style: none; 
+	float: left; 
+	overflow: hidden; 
+	font-size: 10px;
 }
 #footer ul#credits li {
 	float: left;
 }
 #footer ul#credits li a.wordpress {
 	display: block; 
-	width: 23px; 
-	height: 23px; 
 	margin: 0 8px 0 0;
-	text-indent: 9999px;
-
-}
-#footer ul#credits li {
-	display: block; 
-	width: 26px; 
-	height: 23px; 
-	text-indent: 9999px;
-
+	
 }
 #footer p#back-top {
 	float: right; font-size: 12px;
