@@ -1,6 +1,8 @@
 <div id="nav">
-				<h1><a href="<?php echo get_option('home');?>"><?php bloginfo('name');?></a></h1>
-
+				<div id="siteinfo">
+					<h1><a href="<?php echo get_option('home');?>"><?php bloginfo('name');?></a></h1>
+					<?php bloginfo('description');?>
+				</div>
 				<ul id="pages">
 					<li><a href="<?php echo get_option('home');?>">Home</a></li>
 					<?php wp_list_pages('title_li='); ?>
