@@ -55,7 +55,7 @@ a:hover {
 	display: block; 
 	width: 213px; 
 	height: 126px; 
-	text-indent: 9999px;
+	/* text-indent: 9999px; */
 }
 
 #nav ul { margin-left: 0; margin-bottom: 20px; margin-right: 40px; margin-top: 0; list-style: none;
