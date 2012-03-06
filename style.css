@@ -361,3 +361,16 @@ a, a:hover, a:active { outline: none; }
 	margin-right: 15px;
 }
 
+#recaptcha_widget_div {
+	position: relative !important;
+
+}
+.recaptchatable #recaptcha_response_field {
+    bottom: 6px;
+    font-size: 10pt;
+    left: -2px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 145px !important;
+}

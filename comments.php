@@ -42,9 +42,9 @@
 						<textarea name="comment" id="comment" rows="" cols="" >
 						</textarea>
 						<input type="submit" class="commentsubmit" value="Submit comment" />
+					</fieldset>
 						<?php comment_id_fields(); ?>
 						<?php do_action('comment_form', $post->ID); ?>
-					</fieldset>
 				</form>
 				<p class="cancel"><?php cancel_comment_reply_link('Cancel Reply'); ?></p>
 			</div>
