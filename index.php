@@ -21,7 +21,7 @@
 							<?php endif; ?>
 							<!-- End posts thumbnail -->
 		
-							<?php the_content(''); ?>
+							<?php the_content('... read on'); ?>
 							
 							<!-- Begin of post meta information -->
 							<ul class="meta">
