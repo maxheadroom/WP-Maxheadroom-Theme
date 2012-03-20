@@ -27,7 +27,7 @@
 							<ul class="meta">
 								<li><?php the_time('F jS, Y');?></li>
 								<li><?php the_tags('Tagged with: ',' • ','<br />'); ?></li>
-								<li><?php comments_number('No Comments', '1 Comment', '% Comments');?></li>
+								<li><?php comments_popup_link('Leave a comment &#187;', 'Comment(1) &#187;', 'Comments(%) &#187;'); ?></li>
 							</ul>
 							<hr noshade="0" size="1" />
 							<!-- end of post meta information -->
