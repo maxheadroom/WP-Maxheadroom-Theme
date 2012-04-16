@@ -11,7 +11,8 @@
 				<h2>Categories</h2>
 				<ul id="categories">
 					<?php wp_list_categories('show_count=0&title_li=&hide_empty=0&exclude=1');?>
-				</ul>	
+				</ul>
+				<?php get_template_part( 'personalized', 'sidebar-flattr' ); ?>	
 				<?php if ( function_exists('wp_tag_cloud') ) : ?>
 
 					<?php $args = array(
