@@ -7,6 +7,20 @@ The goal is to have a simple and lightweight layout for a picture/photo heavy bl
 
 Feel free to clone and use this Theme for your own purposes. But please don't make money with it. 
 
+Installation
+============
+
+Just clone this theme into your _wordpress/wp-content/themes/_ folder:
+
+user@hostname:/srv/www/htdocs/wordpress/wp-content/themes$ git clone https://maxheadroom@github.com/maxheadroom/WP-Maxheadroom-Theme.git WP-Maxheadroom-Theme
+
+Customization
+=============
+
+The theme already contains a few customizations. Please have a look into the _.gitignore_ file. Files listed there will not be 
+overwritten by a template update (git pull).
+
+You can add your personalized header settings into the _personalized-header.php_ file for instance.
 
 License
 -------
