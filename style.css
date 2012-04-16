@@ -20,7 +20,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 body {
 	background: fixed;
 	/* font-family: Georgia, Serif;  */
-	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "pt-sans" ,'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #555; 
 	line-height: 20px;
 }
@@ -279,15 +279,15 @@ html body div#wrapper div#container div#main div.post img {
 
 #main #comments .comment .comment-meta {
 	float: none; 
-	font: italic 11px Abel, Helvetica, Serif; 
+	font: italic 11px "museo", Abel, Helvetica, Serif; 
 }
 #main #comments .comment .reply a {
 	float: none; 
-	font: italic 15px Abel, Helvetica, Serif; 
+	font: italic 15px "museo", Abel, Helvetica, Serif; 
 }
 #main #comments .comment .cancel a {
 	float: left; 
-	font: italic 15px Abel, Helvetica, Serif;
+	font: italic 15px "museo", Abel, Helvetica, Serif;
 }
 
 
@@ -300,15 +300,28 @@ html body div#wrapper div#container div#main div.post img {
 }
 #main #comments #respond form input {
 	float: left; width: 250px; height: 16px; margin: 0 20px 10px 0; padding: 10px; 
-	background: #e1d6c1; border: 1px solid #c8bca6; font: 15px Helvetica, Arial, Sans-Serif; color: #666;
+	background: #e1d6c1; 
+	border: 1px solid #c8bca6; 
+	font: 15px "museo", Helvetica, Arial, Sans-Serif; 
+	color: #666;
 }
 #main #comments #respond form textarea {
 	float: left; width: 400px; height: 120px; margin: 0 0 10px 0; padding: 10px;
-	background: #e1d6c1; border: 1px solid #c8bca6; font: 15px Helvetica, Arial, Sans-Serif; color: #666;
+	background: #e1d6c1; 
+	border: 1px solid #c8bca6; 
+	font: 15px "museo", Helvetica, Arial, Sans-Serif; 
+	color: #666;
 }
 #main #comments #respond form input.commentsubmit {
-	margin: 10px 0 0 80px; width: auto; height: auto; background: none; border: none;
-	font: 24px Georgia, Serif; color: #88230b; text-shadow: 0px 1px 0px #fff; cursor: pointer;
+	margin: 10px 0 0 80px; 
+	width: auto; 
+	height: auto; 
+	background: none; 
+	border: none;
+	font: 24px "museo", Georgia, Serif; 
+	color: #88230b; 
+	text-shadow: 0px 1px 0px #fff; 
+	cursor: pointer;
 
 }
 #main #comments #respond form input:focus, #main #comments #respond form textarea:focus {
