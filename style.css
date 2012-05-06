@@ -20,7 +20,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 body {
 	background: fixed;
 	/* font-family: Georgia, Serif;  */
-	font-family: "Museo Slab" ,'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: museo-slab ,'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #555; 
 	line-height: 20px;
 }
@@ -279,15 +279,15 @@ html body div#wrapper div#container div#main div.post img {
 
 #main #comments .comment .comment-meta {
 	float: none; 
-	font: italic 11px "Museo Slab", Abel, Helvetica, Serif; 
+	font: italic 11px museo-slab, Abel, Helvetica, Serif; 
 }
 #main #comments .comment .reply a {
 	float: none; 
-	font: italic 15px "Museo Slab", Abel, Helvetica, Serif; 
+	font: italic 15px museo-slab, Abel, Helvetica, Serif; 
 }
 #main #comments .comment .cancel a {
 	float: left; 
-	font: italic 15px "Museo Slab", Abel, Helvetica, Serif;
+	font: italic 15px museo-slab, Abel, Helvetica, Serif;
 }
 
 
@@ -302,14 +302,14 @@ html body div#wrapper div#container div#main div.post img {
 	float: left; width: 250px; height: 16px; margin: 0 20px 10px 0; padding: 10px; 
 	background: #e1d6c1; 
 	border: 1px solid #c8bca6; 
-	font: 15px "Museo Slab", Helvetica, Arial, Sans-Serif; 
+	font: 15px museo-slab, Helvetica, Arial, Sans-Serif; 
 	color: #666;
 }
 #main #comments #respond form textarea {
 	float: left; width: 400px; height: 120px; margin: 0 0 10px 0; padding: 10px;
 	background: #e1d6c1; 
 	border: 1px solid #c8bca6; 
-	font: 15px "Museo Slab", Helvetica, Arial, Sans-Serif; 
+	font: 15px museo-slab, Helvetica, Arial, Sans-Serif; 
 	color: #666;
 }
 #main #comments #respond form input.commentsubmit {
@@ -318,7 +318,7 @@ html body div#wrapper div#container div#main div.post img {
 	height: auto; 
 	background: none; 
 	border: none;
-	font: 24px "Museo Slab", Georgia, Serif; 
+	font: 24px museo-slab, Georgia, Serif; 
 	color: #88230b; 
 	text-shadow: 0px 1px 0px #fff; 
 	cursor: pointer;
