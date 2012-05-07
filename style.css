@@ -204,6 +204,20 @@ html body div#wrapper div#container div#main div.post img {
 }
 
 
-
+/* format source code section */
+code {
+   display:block;
+   font-family: "larabiefont", 'Courier New', Courier, Fixed, monospace;
+   font-size : 12px;
+   color: #000;
+   background : #fff;
+   overflow : auto;
+   text-align:left;
+   border : 1px solid #5581C0;
+   padding : 0px 20px 0 30px;
+   margin:1em 0 1em 0;
+   line-height:17px;
+   font-weight:400!important;
+}
 
 
