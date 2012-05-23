@@ -6,7 +6,6 @@
 	<title><?php wp_title('&laquo',true,'right');?><?php bloginfo('name'); ?></title>
 	<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="screen" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
 
 	<!-- 
 		insert personalized header content in the separate file 
