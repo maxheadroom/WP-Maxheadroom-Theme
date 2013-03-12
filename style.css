@@ -21,7 +21,7 @@ body {
 }
 
 a {
-	color: #1f5388; text-decoration: none;
+	color: #1f5388; text-decoration: underline;
 }
 a:hover {
 	text-decoration: underline;
