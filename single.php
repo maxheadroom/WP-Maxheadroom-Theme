@@ -19,10 +19,11 @@
 									<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 								</div>
 							<?php endif; ?>
-							<div id="socialshareprivacy"></div>
+						
 							<!-- End posts thumbnail -->
 		
 							<?php the_content(); ?>
+							<div id="socialshareprivacy"></div>
 							<?php comments_template(); ?>
 							<!-- Begin of post meta information -->
 							<ul class="meta">

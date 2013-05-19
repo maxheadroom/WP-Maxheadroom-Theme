@@ -20,9 +20,9 @@
 								</div>
 							<?php endif; ?>
 							<!-- End posts thumbnail -->
-							<div id="socialshareprivacy"></div>
-							<?php the_content('... read on'); ?>
 							
+							<?php the_content('... read on'); ?>
+							<div id="socialshareprivacy"></div>
 							<!-- Begin of post meta information -->
 							<ul class="meta">
 								<li><?php the_time('F jS, Y');?></li>
