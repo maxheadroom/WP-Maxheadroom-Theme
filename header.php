@@ -39,7 +39,7 @@
 	    });
 	  </script>
 
-http://www.explain-it.org/wordpress/2013/05/18/why-hacked-twitter-accounts-are-good/socialshareprivacy/socialshareprivacy.css
+
 
 	<!-- 
 		insert personalized header content in the separate file 

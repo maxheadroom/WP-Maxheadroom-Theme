@@ -19,6 +19,7 @@
 									<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 								</div>
 							<?php endif; ?>
+							<div id="socialshareprivacy"></div>
 							<!-- End posts thumbnail -->
 		
 							<?php the_content(); ?>
@@ -32,7 +33,7 @@
 							<hr noshade="0" size="1" />
 							<!-- end of post meta information -->
 						</div>
-						<div id="socialshareprivacy"></div>
+						
 						<!-- End of single post -->
 					<?php endwhile; ?>
 
