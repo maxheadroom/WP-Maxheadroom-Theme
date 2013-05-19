@@ -5,7 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title><?php wp_title('&laquo',true,'right');?><?php bloginfo('name'); ?></title>
 	<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="screen" />
-	<link href="<?php echo get_template_directory_uri(); ?>/socialshareprivacy/socialshareprivacy.css" rel="stylesheet" type="text/css" media="screen" />
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/javascript/jquery-1.9.1.min.js"></script>
  
 	  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/socialshareprivacy/jquery.socialshareprivacy.js"></script>
@@ -13,6 +12,18 @@
 	    jQuery(document).ready(function($){
 	      if($('#socialshareprivacy').length > 0){
 	        $('#socialshareprivacy').socialSharePrivacy(); 
+			$('#socialshareprivacy').socialSharePrivacy({
+			    services : {
+			        facebook : {
+			            'status' : 'on'
+			        }, 
+			        twitter : {
+			            'status' : 'on'
+			        }
+			    },
+			    'css_path' : '<?php echo get_template_directory_uri(); ?>/socialshareprivacy/socialshareprivacy.css'
+			});
+	
 	      }
 	    });
 	  </script>
