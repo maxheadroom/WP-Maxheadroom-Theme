@@ -32,6 +32,7 @@
 							<hr noshade="0" size="1" />
 							<!-- end of post meta information -->
 						</div>
+						<div id="socialshareprivacy"></div>
 						<!-- End of single post -->
 					<?php endwhile; ?>
 
