@@ -11,18 +11,29 @@
 	  <script type="text/javascript">
 	    jQuery(document).ready(function($){
 	      if($('#socialshareprivacy').length > 0){
-	        $('#socialshareprivacy').socialSharePrivacy(); 
-			$('#socialshareprivacy').socialSharePrivacy({
-			    services : {
-			        facebook : {
-			            'status' : 'on'
-			        }, 
-			        twitter : {
-			            'status' : 'on'
-			        }
-			    },
-			    'css_path' : '<?php echo get_template_directory_uri(); ?>/socialshareprivacy/socialshareprivacy.css'
-			});
+	        $('#socialshareprivacy').socialSharePrivacy({
+					'info_link' : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
+					'css_path' : '<?php echo get_template_directory_uri(); ?>/socialshareprivacy/socialshareprivacy.css',
+				  services : {
+				    facebook : {
+					  'status' : 'on',
+				      'perma_option': 'off',
+					  'dummy_img' : '<?php echo get_template_directory_uri(); ?>/socialshareprivacy/images/dummy_facebook.png'
+
+				    }, 
+				    twitter : {
+				        'status' : 'on',
+						  'dummy_img' : '<?php echo get_template_directory_uri(); ?>/socialshareprivacy/images/dummy_twitter.png'
+				    },
+				    gplus : {
+					  'status' : 'on',
+				      'display_name' : 'Google Plus',
+						'dummy_img' : '<?php echo get_template_directory_uri(); ?>/socialshareprivacy/images/dummy_gplus.png'
+				    }
+				  },
+				  'cookie_domain' : 'explain-it.org'
+				});
+				// ende
 	
 	      }
 	    });
