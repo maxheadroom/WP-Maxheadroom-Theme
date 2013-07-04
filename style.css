@@ -220,4 +220,9 @@ code {
    font-weight:400!important;
 }
 
-
+/* format the PolyLang language switcher */
+.language-switcher li {
+    display: inline;
+	list-style: none;
+	margin-right: 5px;
+}
