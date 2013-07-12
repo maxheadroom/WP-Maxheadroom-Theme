@@ -32,15 +32,23 @@
 				<h3>Leave respond</h3>
 				<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 					<fieldset>
-						<label for="author">Name:</label>
-						<input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" />
-						<label for="email">eMail:</label>
-						<input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" />
-						<label for="url">Website:</label>
-						<input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" />
-						<label for="comment">Comment:</label>
-						<textarea name="comment" id="comment" rows="" cols="" >
-						</textarea>
+                        <div class="comment_label">
+						    <span><label for="author">Name:</label></span>
+						    <input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" />
+                        </div>
+                        <div class="comment_label">
+						    <span><label for="email">eMail:</label></span>
+						    <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" />
+                        </div>
+                        <div class="comment_label">
+						    <span><label for="url">Website:</label></span>
+						    <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" />
+                        </div>
+                        <div class="comment_label">
+						    <span><label for="comment">Comment:</label></span>
+						    <textarea name="comment" id="comment" rows="5" cols="70" >
+						    </textarea>
+                        </div>
 						<input type="submit" class="commentsubmit" value="Submit comment" />
 					</fieldset>
 						<?php comment_id_fields(); ?>

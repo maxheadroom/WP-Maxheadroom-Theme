@@ -226,3 +226,13 @@ code {
 	list-style: none;
 	margin-right: 5px;
 }
+
+.comment_label {
+    width: 80px;
+    display: block;
+}
+
+.comment_label span input {
+    width: 80px;
+    display: inline;
+}
